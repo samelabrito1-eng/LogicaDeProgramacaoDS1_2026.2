@@ -1,0 +1,8 @@
+media_aluno = input("qual a media do aluno")
+frequencia_percentual = input("qual a frequencia do aluno")
+aprovado = float(media_aluno) >= 7.0 and float(frequencia_percentual) >= 75
+print("status do aluno:", aprovado)
+
+
+
+

@@ -13,3 +13,11 @@ Imprima "Isento" ou o valor total do imposto formatado com 2 casas decimais.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+print("informe o salario do conbruente em rombus (R$):")
+salario = float(input())
+if salario <= 2000.00:
+    print("insento")
+elif salario <= 3000.00:
+    imposto = (salario - 2000.00) * 0.08
+    print(f"imposto: R$ {imposto:.2f}")
+    
